@@ -1,5 +1,5 @@
 FROM scratch
-ADD ubuntu-trusty-core-cloudimg-amd64-root.tar.gz /
+ADD ubuntu-trusty-core-cloudimg-i386-root.tar.gz /
 
 # a few minor docker-specific tweaks
 # see https://github.com/docker/docker/blob/master/contrib/mkimage/debootstrap
